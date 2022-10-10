@@ -4017,7 +4017,7 @@ General_Tab:Dropdown("FastAttack","Extra Fast ( Recommend )",MIo,function(vu)
 	elseif _G.Setting_table.FastAttack_Mode == "Smooth" then
 		_G.Fast_Delay = 0.3
 	elseif _G.Setting_table.FastAttack_Mode == "Extra Fast ( Recommend )" then
-	    _G.Fast_Delay = 0.09
+	    _G.Fast_Delay = 0.07
 	elseif _G.Setting_table.FastAttack_Mode == "Super Fast" then
 		_G.Fast_Delay = 0
 	end
